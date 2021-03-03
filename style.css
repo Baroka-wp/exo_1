@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+body{
+    margin: 0px;
+}
+
+:root{
+    --color1:#ADD981;
+    --color2:#FFFFFFDF;
+}
+
+.cover img{
+    width: 150px;
+}
+
+div.cover{
+    background: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+
+.bouton-contact{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 30px;
+    top:45px;
+    background-color:var(--color1) ;
+    padding:10px;
+    border-radius:50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    font-size: 14px;
+}
+
+nav{
+    display: flex;
+}
+
+nav li {
+    color: white;
+    list-style: none;
+    margin-left: 30px;
+}
